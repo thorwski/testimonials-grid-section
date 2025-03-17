@@ -72,7 +72,7 @@ const TestimonialCard = ({
 
   return (
     <div
-      className={`${styles.backgroundClass} p-10 rounded-lg flex flex-col gap-4 relative`}
+      className={`${styles.backgroundClass} p-8 rounded-lg flex flex-col gap-4 relative`}
     >
       {styles.showQuoteImage && (
         <img
