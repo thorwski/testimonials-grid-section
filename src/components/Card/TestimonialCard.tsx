@@ -73,12 +73,13 @@ const TestimonialCard = ({
   return (
     <div
       className={`${styles.backgroundClass} p-8 rounded-lg flex flex-col gap-4 relative`}
+      style={{ boxShadow: "40px 60px 50px -47px rgba(72, 85, 106, 0.24)" }}
     >
       {styles.showQuoteImage && (
         <img
           src={quoteImageSrc}
           alt="quote icon"
-          className="absolute top-0 right-[60px] hidden sm:block"
+          className="absolute top-0 sm:left-[376px] xl:right-[60px] hidden sm:block"
         />
       )}
       <div className="flex items-center gap-4">
