@@ -40,7 +40,7 @@ const App = () => {
   }
 
   return (
-    <main className="flex justify-center items-center min-h-screen px-[35px] py-[73px] md:px-[60px] md:py-[83px]">
+    <main className="flex justify-center items-center min-h-screen px-[35px] py-[73px] md:px-[60px] md:py-[83px] xl:p-0">
       <div className="grid grid-cols-1 xl:grid-cols-[827px_1fr] gap-8 max-w-[1114px] w-full">
         <div className="space-y-6">
           <div className="grid grid-cols-1 xl:grid-cols-[1fr_255px] gap-8">
